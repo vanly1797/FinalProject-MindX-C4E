@@ -104,4 +104,7 @@ li.dropdown {
   background-color: darkgrey;
   margin-top: 20px;
   column-gap: 50px;
+  height: 50px;
+  font-size: 21px;
+  padding-top: 8px;
 }
