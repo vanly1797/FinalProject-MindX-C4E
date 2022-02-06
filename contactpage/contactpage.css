@@ -1,0 +1,12 @@
+.row:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+
+}
+
