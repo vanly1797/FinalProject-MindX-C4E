@@ -6,89 +6,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="mainpage-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
-    <header>
-        <div class="header-logo-icon">
-            <div class="header-temp"></div>
-            <div class="header-logo">
-                <a href="mainpage.html"><img src="/image/logo-store.jpg" alt="VSDH-Store" /></a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="index.html">
+                    <img src="/image/store-logo.png" alt="store-logo" width="50px" height="50px">
+                </a>
             </div>
-            <div class="header-icon">
-                <div class="header-wrap-icon">
+            <div class="col-md-9">
+                <div class="navbar">
+                    <ul>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Điện thoại</a>
+                            <div class="dropdown-content">
+                                <a href="#">Iphone</a>
+                                <a href="/samsung-page.html">Samsung</a>
+                            </div>
+                        </li>
+                        <li><a href="#" target="_blank">Apple Watch</a></li>
+                        <li><a href="#" target="_blank">Macbook</a></li>
+                        <li><a href="#" target="_blank">Phụ kiện</a></li>
+                        <li><a href="/new-page.html" target="_blank">Tin tức</a></li>
+                        <li><a href="/contactpage/contactpage.html" target="_blank">Liên hệ</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!-- Navbar-START -->
-        <div class="navbar">
-            <ul>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Điện thoại</a>
-                    <div class="dropdown-content">
-                        <a href="#">Iphone</a>
-                        <a href="/samsung-page.html">Samsung</a>
-                    </div>
-                </li>
-                <li><a href="#" target="_blank">Apple Watch</a></li>
-                <li><a href="#" target="_blank">Macbook</a></li>
-                <li><a href="#" target="_blank">Phụ kiện</a></li>
-                <li><a href="/new-page.html" target="_blank">Tin tức</a></li>
-                <li><a href="#" target="_blank">Liên hệ</a></li>
-                <li>
-                    <div class="search-container">
-                        <form action="/action_page.php">
-                            <input type="text" placeholder="Search.." name="search">
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <!-- Navbar-END -->
-    </header>
-    <!-- Carousel-START -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/image/image04.jpg" class="d-block w-100 img-thumbnail" alt="...">
+        <!-- <div class="header-logo-navbar-icon">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="/image/store-logo.png" alt="store-logo" width="50px" height="50px">
+                </a>
             </div>
-            <div class="carousel-item">
-                <img src="/image/image05.jpg" class="d-block w-100 img-thumbnail" alt="...">
+            <div class="navbar">
+                <ul>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Điện thoại</a>
+                        <div class="dropdown-content">
+                            <a href="#">Iphone</a>
+                            <a href="/samsung-page.html">Samsung</a>
+                        </div>
+                    </li>
+                    <li><a href="#" target="_blank">Apple Watch</a></li>
+                    <li><a href="#" target="_blank">Macbook</a></li>
+                    <li><a href="#" target="_blank">Phụ kiện</a></li>
+                    <li><a href="/new-page.html" target="_blank">Tin tức</a></li>
+                    <li><a href="/contactpage/contactpage.html" target="_blank">Liên hệ</a></li>
+                </ul>
             </div>
-            <div class="carousel-item">
-                <img src="/image/image06.jpg" class="d-block w-100 img-thumbnail" alt="...">
+            <div class="header-icon">
+
             </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        </div> -->
+
+
     </div>
-    <!-- Carousel-END -->
+
+
 
     <!-- Grid-item-START -->
     <div class="container">
+        <!-- Carousel-START -->
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/image/slider01.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/image/slider02.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/image/slider03.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel-END -->
+
         <h1>Các sản phẩm nổi bật</h1>
-        <div class="row row-cols-4">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col">
                 <img src="/image/ip13promax.jpg" class="img-fluid rounded" alt="">
                 <div class="product-name">
@@ -161,168 +186,84 @@
                     <span>Đang cập nhật</span>
                 </div>
             </div>
-            <button type="button" class="btn btn-outline-primary mx-auto">Xem tất cả sản phẩm</button>
         </div>
-
     </div>
     <!-- Grid-item-END -->
 
     <!-- Info-START -->
-    <div class="container-contact">
-        <span>Đăng ký nhận thông tin ưu đãi</span>
-        <div class="info-mail">
-            <input type="text" placeholder="Nhập vào email của bạn" />
-            <button type="button" class="btn btn-outline-success">Đăng ký</button>
-        </div>
-        <div class="info-contact">
-            <i style="font-size:24px" class="fa">&#xf2b9;</i>
-            <span>Hỗ trợ/Mua hàng: 0909.1234.89</span>
-        </div>
-    </div>
-    <!-- Info-END -->
-
-    <!-- Footer-START -->
-    <footer class="page-footer font-small mdb-color pt-4">
-
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left">
-
-            <!-- Footer links -->
-            <div class="row text-center text-md-left mt-3 pb-3">
-
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
-                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                        consectetur
-                        adipisicing elit.</p>
+    <div class="container-fluid">
+        <div class="container-contact">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col-md-8">
+                    <div class="info-mail">
+                        <span>Đăng ký nhận thông tin ưu đãi |</span>
+                        <input type="text" placeholder="Nhập vào email của bạn" />
+                        <button type="button" class="btn btn-outline-success">Đăng ký</button>
+                    </div>
                 </div>
-                <!-- Grid column -->
-
-                <hr class="w-100 clearfix d-md-none">
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-                    <p>
-                        <a href="#!">MDBootstrap</a>
-                    </p>
-                    <p>
-                        <a href="#!">MDWordPress</a>
-                    </p>
-                    <p>
-                        <a href="#!">BrandFlow</a>
-                    </p>
-                    <p>
-                        <a href="#!">Bootstrap Angular</a>
-                    </p>
+                <div class="col-6 col-md-4">
+                    <div class="info-contact">
+                        <i style="font-size:24px" class="fa">&#xf2b9;</i>
+                        <span>Hỗ trợ/Mua hàng: 0909.1234.89</span>
+                    </div>
                 </div>
-                <!-- Grid column -->
-
-                <hr class="w-100 clearfix d-md-none">
-
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-                    <p>
-                        <a href="#!">Your Account</a>
-                    </p>
-                    <p>
-                        <a href="#!">Become an Affiliate</a>
-                    </p>
-                    <p>
-                        <a href="#!">Shipping Rates</a>
-                    </p>
-                    <p>
-                        <a href="#!">Help</a>
-                    </p>
-                </div>
-
-                <!-- Grid column -->
-                <hr class="w-100 clearfix d-md-none">
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                    <p>
-                        <i class="fas fa-home mr-3"></i> New York, NY 10012, US
-                    </p>
-                    <p>
-                        <i class="fas fa-envelope mr-3"></i> info@gmail.com
-                    </p>
-                    <p>
-                        <i class="fas fa-phone mr-3"></i> + 01 234 567 88
-                    </p>
-                    <p>
-                        <i class="fas fa-print mr-3"></i> + 01 234 567 89
-                    </p>
-                </div>
-                <!-- Grid column -->
-
             </div>
-            <!-- Footer links -->
-
-            <hr>
-
-            <!-- Grid row -->
-            <div class="row d-flex align-items-center">
-
-                <!-- Grid column -->
-                <div class="col-md-7 col-lg-8">
-
-                    <!--Copyright-->
-                    <p class="text-center text-md-left">© 2020 Copyright:
-                        <a href="https://mdbootstrap.com/">
-                            <strong> MDBootstrap.com</strong>
-                        </a>
-                    </p>
-
+        </div>
+        <!-- Footer-START -->
+        <footer class="footer-container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col-6 col-md-4">
+                    <div class="footer-introduce">
+                        <h4>Giới thiệu</h4>
+                        <p>Hoành Nguyễn Mobile luôn đặt đạo đức kinh doanh làm tiền đề ĐỂ PHÁT TRIỂN.</p>
+                        <p>Chuyên kinh doanh các sản phẩm Apple mới, cũ, quốc tế xách tay uy tín, chất lượng.</p>
+                    </div>
                 </div>
-                <!-- Grid column -->
+                <div class="col-6 col-md-4">
+                    <div class="footer-link">
+                        <h4>Liên kết</h4>
+                        <ul>
+                            <li><a href="#" target="_blank">Tìm kiếm</a></li>
+                            <li><a href="#" target="_blank">Giới thiệu</a></li>
+                            <li><a href="#" target="_blank">Chính sách bảo hành</a></li>
+                            <li><a href="#" target="_blank">Chính sách bảo mật</a></li>
+                            <li><a href="#" target="_blank">Điều khoản dịch vụ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="footer-contact">
+                        <h4>Thông tin liên hệ</h4>
+                        <ul>
+                            <li>
+                                <p>275 Ba Tháng Hai, Phường 10, Quận 10, Tp. Hồ Chí Minh</p>
+                            </li>
+                            <li>
 
-                <!-- Grid column -->
-                <div class="col-md-5 col-lg-4 ml-lg-0">
-
-                    <!-- Social buttons -->
-                    <div class="text-center text-md-right">
-                        <ul class="list-unstyled list-inline">
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
+                                <p>0909.1234.89</p>
                             </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-google-plus-g"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
+                            <li>
+                                <p>xuongvan97@gmail.com</p>
                             </li>
                         </ul>
                     </div>
-
                 </div>
-                <!-- Grid column -->
-
             </div>
-            <!-- Grid row -->
+            <hr>
+            <p style="text-align: center;">Copyright © 2022 VDSH Mobile.</p>
+        </footer>
+        <!-- Footer-END -->
+    </div>
 
-        </div>
-        <!-- Footer Links -->
+    <!-- Info-END -->
 
-    </footer>
-    <!-- Footer-END -->
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="mainpage-script.js"></script>
 
 </body>
 
