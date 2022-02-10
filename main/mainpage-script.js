@@ -1,85 +1,48 @@
-// var myCarousel = document.querySelector('#myCarousel')
-// var carousel = new bootstrap.Carousel(myCarousel, {
-//   interval: 2000,
-//   wrap: false
-// })
+// Get the plugin
+let plug = document.getElementById("pluginSearch");
+let plug1 = document.getElementById("pluginLogin");
+let plug2 = document.getElementById("pluginCart");
 
-//alert function update
-// const btnFind = document.getElementById("btnFind")
-// btnFind.onclick = function(){
-//   alert("Tính năng đang được cập nhật");
-// };
+// Get the button that opens the plugin
+let btn = document.getElementById("btnSearch");
+let btn1 = document.getElementById("btnLogin");
+let btn2 = document.getElementById("btnCart");
 
-// const btnCart = document.getElementById("btnCart")
-// btnCart.onclick = function(){
-//   alert("Tính năng đang được cập nhật");
-// };
-
-// //get API googlemap
-// function myMap() {
-//   var mapProp= {
-//     center:new google.maps.LatLng(10.770283,106.672169),
-//     zoom:5,
-//   };
-//   var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-// }
-  
-// Get the modal
-let modal = document.getElementById("myModal");
-let modal1 = document.getElementById("myModal1");
-let modal2 = document.getElementById("myModal2");
-
-// Get the button that opens the modal
-let btn = document.getElementById("myBtn");
-let btn1 = document.getElementById("myBtn1");
-let btn2 = document.getElementById("myBtn2");
-
-// Get the <span> element that closes the modal
+// Get the <span> element that closes the plugin
 let span = document.getElementsByClassName("close")[0];
 let span1 = document.getElementsByClassName("close1")[0];
 let span2 = document.getElementsByClassName("close2")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the plugin 
 btn.onclick = function() {
-  modal.style.display = "block";
+  plug.style.display = "block";
 }
 btn1.onclick = function() {
-  modal1.style.display = "block";
+  plug1.style.display = "block";
 }
 btn2.onclick = function() {
-  modal2.style.display = "block";
+  plug2.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on <span> (x), close the plugin
 span.onclick = function() {
-  modal.style.display = "none";
+  plug.style.display = "none";
 }
 span1.onclick = function() {
-  modal1.style.display = "none";
+  plug1.style.display = "none";
 }
 span2.onclick = function() {
-  modal2.style.display = "none";
+  plug2.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// When the user clicks anywhere outside of the plugin, close it
 window.onclick = function(event) {
-  if (event.target == modal ||event.target == modal1||event.target == modal2) {
-    modal.style.display = "none";
-    modal1.style.display = "none";
-    modal2.style.display = "none";
+  if (event.target == plug ||event.target == plug1||event.target == plug2) {
+    plug.style.display = "none";
+    plug1.style.display = "none";
+    plug2.style.display = "none";
   }
 }
-// window.onclick = function(event) {
-//   if (event.target == modal1) {
-//     modal1.style.display = "none";
-//   }
-// }
-// window.onclick = function(event) {
-//   if (event.target == modal2) {
-//     modal2.style.display = "none";
-//   }
-// }
-
 
 // Login
 let submit = document.getElementById("myForm");
