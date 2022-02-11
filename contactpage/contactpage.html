@@ -7,11 +7,240 @@
 </head>
 
 <body>
+
+    <!-- Header-START -->
+    <header>
+
+        <!-- Plugin Search-->
+        <div id="pluginSearch" class="plugin">
+            <div class="plugin-content">
+                <div class="plugin-header">
+                    <div class="blank-search"></div>
+                    <h2>TÌM KIẾM</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="plugin-body">
+                    <div class="search">
+                        <input class="col-sm-9 input" type="text" placeholder="Tìm kiếm sản phẩm ...">
+                        <i class='fa fa-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Plugin Login-->
+        <div id="pluginLogin" class="plugin">
+            <div class="plugin-content">
+                <div class="plugin-header">
+                    <div id="total">
+                        <div class="user-title">
+                            <h3>ĐĂNG NHẬP TÀI KHOẢN</h3>
+                            <span class="close1">&times;</span>
+                        </div>
+                        <form class="content">
+                            <div class="container">
+                                <input id="username" value="" type="text" placeholder="Email" name="uname" required>
+                                <p id="warning1">* Bạn cần nhập đúng email</p>
+                                <input id="pass" type="password" value="" placeholder="Mật khẩu" name="pass" required>
+                                <p id="warning2">* Bạn cần nhập đúng password</p>
+                                <h6>
+                                    Khi bạn nhấn vào nút đăng nhập là đồng ý vô điều kiện với <span class="policy"><a
+                                            href="https://policies.google.com/terms">Điều khoản Dịch vụ</a></span> và
+                                    <span class="policy"><a href="https://policies.google.com/privacy">Bảo
+                                            mật</a></span> của chúng tôi.
+                                </h6>
+                                <button type="submit" id="myForm">ĐĂNG NHẬP</button>
+                            </div>
+                        </form>
+                        <h6 class="link-register">
+                            Khách hàng mới? <span class="policy"><a href="https://policies.google.com/privacy">Tạo tài
+                                    khoản</a></span>
+                        </h6>
+                        <h6 class="link-register">
+                            Quên mật khẩu? <span class="policy"><a href="https://policies.google.com/privacy">Khôi phục
+                                    mật khẩu</a></span>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Plugin Shopping Cart-->
+        <div id="pluginCart" class="plugin">
+            <div class="plugin-content">
+                <div class="cart-head">
+                    <span class="close2">&times;</span>
+                    <h3>Giỏ hàng</h3>
+                </div>
+                <div class="plugin-header-cart">
+                    <div class="icon-cart">
+                        <i class="fa fa-cart-plus"></i>
+                    </div>
+                    <div class="word-cart">
+                        <h4>Hiện chưa có sản phẩm</h4>
+                    </div>
+                </div>
+                <div class="plugin-body">
+                    <div class="count-cart">
+                        <div class="count-money">
+                            <span>TỔNG TIỀN:</span>
+                            <span class="money-red">0₫</span>
+                        </div>
+                        <div class="btn-cart">
+                            <button class="money-cart1">XEM GIỎ HÀNG</button>
+                            <button class="money-cart2">THANH TOÁN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navlist">
+            <ul>
+                <li>
+                    <a href="#">
+                        Điện thoại
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+                <li>
+                    <a href="#">
+                        Apple Watch
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+                <li>
+                    <a href="#">
+                        Macbook
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+                <li>
+                    <a href="#">
+                        Phụ kiện
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+                <li>
+                    <a href="#">
+                        Tin tức
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+                <li>
+                    <a href="#">
+                        Liên hệ
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+            </ul>
+        </div>
+        <!-- End Modal-->
+        <div class="header-top">
+            <div class="container-fluid">
+                <div class="header-top-content">
+                    <p>Hoành Nguyễn Mobile cung cấp sản phẩm chính hãng</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-middle container-fluid">
+            <div class="col-md-2 fa-bars-icon" id="bars">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="col-md-8 header-logo">
+                <div>
+                    <a href="index.html">
+                        <img src="/image/1234-removebg-preview_1a8babcbc6824ad797f14ba780ba3a59.png"
+                            class="img-fluid rounded" alt="Hoanh Nguyen Mobile Logo" width="50%" height="40%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 icon">
+                <i class='fa fa-search fa-search1' id="btnSearch"></i>
+
+                <i class='fa fa-user-circle' id="btnLogin"></i>
+
+                <i class="fa fa-shopping-bag" id="btnCart"></i>
+            </div>
+        </div>
+
+        <div class="search-input container-fluid">
+            <div class="col-md-4">
+                <div class="search-input-btn">
+                    <input class="col-sm-9 " type="text" placeholder="Tìm kiếm sản phẩm">
+                    <i class='fa fa-search'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <ul class="nav justify-content-center container-fluid">
+                <li class="nav-item dropdown">
+                    <div class="nav-name home1">
+                        <!-- <a class="nav-link" href="#">Điện thoại</a> -->
+                        <a class="nav-link" href="#" id="navbarDropdown">
+                            Điện thoại
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </a>
+                        <div class="line1"></div>
+                        <div class="dropdown-content">
+                            <a class="dropdown-item" href="#">Apple</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Samsung</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="nav-name home2">
+                        <a class="nav-link" href="#" id="navbarDropdown">
+                            Apple Watch
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </a>
+                        <div class="line2"></div>
+                        <div class="dropdown-content">
+                            <a class="dropdown-item" href="#">Apple Watch Series 7</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Apple Watch Series 6</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Apple Watch SE</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-name home3">
+                        <a class="nav-link" href="#">Macbook</a>
+                        <div class="line3"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-name home4">
+                        <a class="nav-link" href="#">Phụ kiện</a>
+                        <div class="line4"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-name home5">
+                        <a class="nav-link" href="/new-page.html">Tin tức</a>
+                        <div class="line5"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-name home6">
+                        <a class="nav-link" href="/contactpage/contactpage.html">Liên hệ</a>
+                        <div class="line6"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- /* Header-END */ -->
+
+
+    <!-- main-start -->
     <main>
         <div class="row">
             <div class="column">
                 <!-- map -->
-                 map
+                map
             </div>
             <div class="column">
                 <!-- thong tin lien he -->
@@ -25,32 +254,32 @@
                             <li>
                                 <p>Địa chỉ của chúng tôi</p>
                                 <p> <strong>
-                                    Ở một nơi xa xôi nào đó
-                                </strong></p>
+                                        Ở một nơi xa xôi nào đó
+                                    </strong></p>
                             </li>
                             <li>
                                 <p>Email của chúng tôi</p>
                                 <p> <strong>
-                                    xaxoi@gmail.com
-                                </strong></p>
+                                        xaxoi@gmail.com
+                                    </strong></p>
                             </li>
                             <li>
                                 <p>Thời gian làm việc</p>
                                 <p><strong>
-                                    Chỉ làm 10 phút mỗi ngày
-                                </strong></p>
+                                        Chỉ làm 10 phút mỗi ngày
+                                    </strong></p>
                             </li>
                             <li>
                                 <p>Số điện thoại</p>
                                 <p> <strong>
-                                    01234zxcv
-                                </strong></p>
+                                        01234zxcv
+                                    </strong></p>
                             </li>
                         </ul>
                     </div>
                     <div class="send-contact">
                         <h2 class="send-contact">Bạn có thắc mắc gì không? Không có thì thôi nhé!</h2>
-                        
+
                         <div>
                             <div>
                                 <div class="input-group">
@@ -79,6 +308,130 @@
         </div>
 
     </main>
+    <!-- main-end -->
+
+    <!-- /* Footer-START */ -->
+    <footer>
+        <!-- <div class="footer"> -->
+        <div class="container-fluid footer-total">
+            <div class="foot-up">
+                <div class="row">
+                    <div class="col-md-12 col-lg-3 foot-icon-email">
+                        <i class="fa fa-bell-o"></i>
+                        <span>
+                            Đăng ký nhận tin
+                        </span>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="container">
+                            <div class="row">
+                                <input class="col-md-6 col-lg-9 input-email" type="text"
+                                    placeholder="   Nhập email của bạn">
+                                <div class="col-md-2 col-lg-3 foot-input-email">
+                                    ĐĂNG KÝ
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 col-lg-3 foot-register">
+                        <i class="fa fa-volume-control-phone"></i>
+                        <span> Hỗ trợ / Mua hàng: </span>
+                        <a href="tel:+1900636099" style="color: red;">0946.2222.39</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="foot-middle">
+                <div class="row ">
+                    <div class="col-md-6 col-lg-4 introduction">
+                        <h3>Giới thiệu</h3>
+                        <span>
+                            Hoành Nguyễn Mobile luôn đặt đạo đức kinh doanh làm tiền đề ĐỂ PHÁT TRIỂN.
+                        </span>
+                        <br />
+                        <span>
+                            Chuyên kinh doanh các sản phẩm Apple mới, cũ, quốc tế xách tay uy tín, chất lượng.
+                        </span>
+                        <a href="index.html">
+                            <img src="https://theme.hstatic.net/1000309753/1000718324/14/logo_bct.png?v=209" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-2 linked">
+                        <h3>
+                            Liên kết
+                        </h3>
+                        <span>
+                            <a href="#">
+                                Tìm kiếm
+                            </a>
+                        </span>
+                        <span>
+                            <a href="#">
+                                Giới thiệu
+                            </a>
+                        </span>
+                        <span>
+                            <a href="#">
+                                Chính sách đổi trả
+                            </a>
+                        </span>
+                        <span>
+                            <a href="#">
+                                Chính sách bảo mật
+                            </a>
+                        </span>
+                        <span>
+                            <a href="#">
+                                Điều khoản dịch vụ
+                            </a>
+                        </span>
+                    </div>
+                    <div class="col-md-6 col-lg-3 information">
+                        <h3>Thông tin liên hệ</h3>
+                        <div class="address">
+                            <i class="fa fa-map-marker"></i>
+                            <span>275 Ba Tháng Hai, Phường 10, Quận 10, Tp. Hồ Chí Minh</span>
+                        </div>
+                        <div class="phone">
+                            <i class="fa fa-phone"></i>
+                            <span>0946.2222.39</span>
+                        </div>
+                        <div class="fax">
+                            <i class="fa fa-fax"></i>
+                            <span>0946.2222.39</span>
+                        </div>
+                        <div class="email">
+                            <i class="fa fa-send"></i>
+                            <span>nguyenvanhoanh11@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2 fanpage">
+                        <h3>
+                            Fanpage
+                        </h3>
+                        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline"
+                            data-width="300" data-height="120" data-small-header="false"
+                            data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false">
+                            <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/facebook">Meta</a></blockquote>
+                        </div>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous"
+                            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0"
+                            nonce="xipeAohS"></script>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="foot-down">
+                <p>Copyright © 2022 Hoành Nguyễn Mobile</p>
+            </div>
+        </div>
+        <!-- </div> -->
+    </footer>
+    <!-- /* Footer-END */ -->
 </body>
 
 </html>
