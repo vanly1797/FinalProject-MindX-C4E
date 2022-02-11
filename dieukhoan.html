@@ -20,6 +20,22 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="/main/mainpage-style.css">
     <link rel="stylesheet" href="/main/product.css">
+    <style>
+        .container ol li {
+            font-weight: bold;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .container ul li {
+            font-weight: normal;
+            margin-left: 50px;
+        }
+
+        .box-content {
+            margin-left: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -198,7 +214,7 @@
                         </a>
                         <div class="line1"></div>
                         <div class="dropdown-content">
-                            <a class="dropdown-item" href="#">Apple</a>
+                            <a class="dropdown-item" href="/main/product-apple.html">Apple</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Samsung</a>
                         </div>
@@ -252,162 +268,45 @@
 
     <!-- Body-START -->
     <div class="container-fluid menu-link">
-        <a href="#">Trang chủ /</a>
-        <a href="#">Sản phẩm Apple</a>
+        <a href="/main/index.html">Trang chủ /</a>
+        <a href="/dieukhoan.html">Điều khoản dịch vụ</a>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="left-module">
-                    <div class="brand">
-                        <div class="sub-title">
-                            <span>THƯƠNG HIỆU</span>
-                            <span><i class="fa fa-minus"></i></span>
-                        </div>
-                        <div class="filter-brand">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="apple">
-                                <label class="custom-control-label" for="apple">Apple</label>
-                            </div>
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="samsung">
-                                <label class="custom-control-label" for="samsung">Samsung</label>
-                            </div>
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="other">
-                                <label class="custom-control-label" for="other">Khác</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="price">
-                        <div class="sub-title">
-                            <span>GIÁ SẢN PHẨM</span>
-                            <span><i class="fa fa-minus"></i></span>
-                        </div>
-                        <div class="filter-price">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="price1">
-                                <label class="custom-control-label" for="price1">Dưới 3,000,000đ</label>
-                            </div>
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="price2">
-                                <label class="custom-control-label" for="price2">3,000,000đ - 8,000,000đ</label>
-                            </div>
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="price3">
-                                <label class="custom-control-label" for="price3">8,000,000đ - 15,000,000đ</label>
-                            </div>
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="price4">
-                                <label class="custom-control-label" for="price4">Trên 15,000,000đ</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-8">
-                <!-- <div class="container grid-total"> -->
-                <div class="grid-top">
-                    <h3><b>Apple</b></h3>
-                </div>
-                <div class="grid-body box-product">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                        <div class="col">
-                            <div class="card">
-                                <img src="/image/ip02-1.png" class="img-fluid rounded"
-                                    onmouseover="this.src='/image/ip02-2.png'"
-                                    onmouseout="this.src='/image/ip02-1.png'" />
-                                <div class="card-body">
-                                    <h5 class="card-title">iPhone 13 Pro Max (128GB)</h5>
-                                    <p class="card-text">29.990.000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src="/image/ip02-2.png" class="img-fluid rounded"
-                                    onmouseover="this.src='/image/ip02-3.png'"
-                                    onmouseout="this.src='/image/ip02-2.png'" />
-                                <div class="card-body">
-                                    <h5 class="card-title">iPhone 13 Pro (128GB)</h5>
-                                    <p class="card-text">25.500.000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src="/image/ip01-1.png" class="img-fluid rounded"
-                                    onmouseover="this.src='/image/ip01-2.png'"
-                                    onmouseout="this.src='/image/ip01-1.png'" />
-                                <div class="card-body">
-                                    <h5 class="card-title">iPhone 13 Mini (128GB)</h5>
-                                    <p class="card-text">20.000.000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src="/image/ip02-3.png" class="img-fluid rounded"
-                                    onmouseover="this.src='/image/ip02-1.png'"
-                                    onmouseout="this.src='/image/ip02-3.png'" />
-                                <div class="card-body">
-                                    <h5 class="card-title">iPhone 12 Pro Max (128GB)</h5>
-                                    <p class="card-text">23.000.000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div class="container">
+        <h3><b>Điều khoản dịch vụ</b></h3>
+        <div class="box-content">
+            <ol>
+                <li>Giới thiệu</li>
+                <p>Chào mừng quý khách hàng đến với website chúng tôi.</p>
+                <p>Khi quý khách hàng truy cập vào trang website của chúng tôi có nghĩa là quý khách đồng ý với các
+                    điều
+                    khoản này. Trang web có quyền thay đổi, chỉnh sửa, thêm hoặc lược bỏ bất kỳ phần nào trong Điều
+                    khoản mua bán hàng hóa này, vào bất cứ lúc nào. Các thay đổi có hiệu lực ngay khi được đăng trên
+                    trang web mà không cần thông báo trước. Và khi quý khách tiếp tục sử dụng trang web, sau khi các
+                    thay đổi về Điều khoản này được đăng tải, có nghĩa là quý khách chấp nhận với những thay đổi đó.
+                </p>
+                <p>Quý khách hàng vui lòng kiểm tra thường xuyên để cập nhật những thay đổi của chúng tôi.</p>
+                <p>Khách hàng có trách nhiệm trình giấy tờ liên quan chứng minh sự thiếu sót trên để hoàn thành việc
+                    hoàn
+                    trả/đổi trả hàng hóa.
+                </p>
 
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                        <div class="col">
-                            <div class="card">
-                                <img src="/image/ss01-1.jpg" class="img-fluid rounded"
-                                    onmouseover="this.src='/image/ss01-2.jpg'"
-                                    onmouseout="this.src='/image/ss01-1.jpg'" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Samsung Galaxy Z Fold3 5G</h5>
-                                    <p class="card-text">35.200.000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src="/image/ss02-1.jpg" class="img-fluid rounded"
-                                    onmouseover="this.src='/image/ss02-2.jpg'"
-                                    onmouseout="this.src='/image/ss02-1.jpg'" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Galaxy Note 20 (128GB)</h5>
-                                    <p class="card-text">14,490,000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src="/image/tn01-1.jpg" class="img-fluid rounded"
-                                    onmouseover="this.src='/image/tn01-2.jpg'"
-                                    onmouseout="this.src='/image/tn01-1.jpg'" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Tai nghe AirPods 2</h5>
-                                    <p class="card-text">3,600,000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src="/image/tn02-2.jpg" class="img-fluid rounded"
-                                    onmouseover="this.src='/image/tn02-1.jpg'"
-                                    onmouseout="this.src='/image/tn02-2.jpg'" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Tai nghe AirPods Pro</h5>
-                                    <p class="card-text">Đang cập nhật</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <li>Hướng dẫn sử dụng website</li>
+                <p>Khi vào web của chúng tôi, khách hàng phải đảm bảo đủ 18 tuổi, hoặc truy cập dưới sự giám sát của cha
+                    mẹ hay người giám hộ hợp pháp. Khách hàng đảm bảo có đầy đủ hành vi dân sự để thực hiện các giao
+                    dịch mua bán hàng hóa theo quy định hiện hành của pháp luật Việt Nam.</p>
+                <p>Trong suốt quá trình đăng ký, quý khách đồng ý nhận email quảng cáo từ website. Nếu không muốn tiếp
+                    tục nhận mail, quý khách có thể từ chối bằng cách nhấp vào đường link ở dưới cùng trong mọi email
+                    quảng cáo.</p>
 
-                <!-- </div> -->
-            </div>
+                <li>Thanh toán an toàn và tiện lợi</li>
+                <p>Người mua có thể tham khảo các phương thức thanh toán sau đây và lựa chọn áp dụng phương thức phù
+                    hợp:</p>
+                <ul>
+                    <li><b>Cách 1</b>: Thanh toán trực tiếp (người mua nhận hàng tại địa chỉ người bán)</li>
+                    <li><b>Cách 2</b>: Thanh toán sau (COD – giao hàng và thu tiền tận nơi)</li>
+                    <li><b>Cách 3</b>: Thanh toán online qua thẻ tín dụng, chuyển khoản</li>
+                </ul>
+            </ol>
         </div>
     </div>
     <!-- Body-END -->
@@ -534,7 +433,6 @@
         <!-- </div> -->
     </footer>
     <!-- /* Footer-END */ -->
-
 
     <!-- Bootstrap - Javascript - ref -->
     <script src="/main/mainpage-script.js"></script>

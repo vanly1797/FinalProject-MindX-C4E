@@ -29,3 +29,7 @@
   color: crimson;
   cursor: pointer;
 }
+
+.box-product .card-title {
+  font-size: 15px;
+}
