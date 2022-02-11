@@ -703,8 +703,9 @@ span.pass {
   }
 }
 @media only screen and (max-width: 576px) {
-  .header-logo a {
-    font-size: 1rem;
+  .header-logo a img {
+    width: 50%;
+    height: 50%;
   }
   .search-input-btn input {
     width: 80%;
