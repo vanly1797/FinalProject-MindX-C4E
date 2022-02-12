@@ -1,0 +1,53 @@
+
+body {
+  line-height:1.4;
+	font-size: 14px;
+	color:#252a2b;
+	overflow-x: hidden;
+	background : #fff;
+	position: initial !important;
+}
+h1,h2,h3,h4,h5,h6 { 
+  color:#252a2b; 
+  margin:0 0 13px 0;  
+  font-weight:500;
+  line-height:1.2
+}
+
+ul {
+  padding:0;
+  list-style:none;
+}
+
+p {
+  line-height: 21px;
+  margin: 0 0 10px 0;
+}
+
+img {
+    max-width:100%;
+}
+
+
+
+.product-title { 
+    padding: 0 0 10px;
+    border-bottom: 1px dotted #dfe0e1;
+}
+.product-title h1 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 0 5px;
+	line-height: initial;
+}
+
+.product-price { 
+    padding: 10px 0; 
+    border-bottom: 1px dotted #dfe0e1;
+}
+.product-price span.pro-price {
+	font-size: 18px;
+	opacity: .92;
+	font-weight: bold;
+	color:red;
+}
