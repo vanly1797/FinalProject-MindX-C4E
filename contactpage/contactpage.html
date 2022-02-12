@@ -6,8 +6,61 @@
     <link rel="stylesheet" href="contactpage.css">
 
     <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    
+
+    <!-- Reponsive -->
+
+    <style>
+
+        @media(min-width:992px) and (max-width:1199px) {
+
+            /*index */
+            .box-banner-inf {
+                width: 80%;
+                z-index: 4;
+            }
+
+            .list-slider-banner.owl-carousel .owl-nav .owl-next {
+                right: 65px;
+            }
+
+            .list-slider-banner.owl-carousel .owl-nav .owl-prev {
+                left: 65px;
+            }
+
+
+        }
+
+        @media(min-width:992px) {
+            .wrapbox-heading-account {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                border-right: 1px solid #ededed;
+                height: 100vh;
+                padding: 0;
+            }
+
+            .wrapbox-heading-account .header-page {
+                padding-bottom: 70px;
+            }
+
+            .box-heading-contact {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                border-right: 1px solid #ededed;
+                height: 100vh;
+                padding: 0;
+            }
+
+            .box-map {
+                height: 100vh !important
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -240,21 +293,30 @@
 
 
     <!-- main-start -->
-    <main>
-        <div class="row">
-            <div class="column">
-                <!-- map -->
-                map
-            </div>
-            <div class="column">
+    <main class="mainContent-theme">
+        <div class="layout-pageContact">
+
+            <!-- chia hai phan map va thong tin lien he -->
+            <div class="row">
+
+                <!-- map-start -->
+                <div class="col-md-6 col-sm-12 col-xs-12 box-heading-contact">
+                    <div class="box-map">
+                        map
+                    </div>
+
+                </div>
+                <!-- map-end -->
+
                 <!-- thong tin lien he -->
-                <div class="content-page ">
-                    <div class="header-contact-page">
+                <div class="col-md-6 col-sm-12 col-xs-12 wrapbox-content-page-contact">
+
+                    <div class="header-page-contact">
 
                         <h1>Liên hệ</h1>
                     </div>
-                    <div class="info-contact">
-                        <ul class="list-info">
+                    <div class="box-info-contact">
+                        <ul class="">
                             <li>
                                 <p>Địa chỉ của chúng tôi</p>
                                 <p> <strong>
@@ -281,33 +343,53 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="send-contact">
-                        <h2 class="send-contact">Bạn có thắc mắc gì không? Không có thì thôi nhé!</h2>
-
+                    <!-- send box  -->
+                    <div class="box-send-contact">
+                        <h2 class="">Bạn có thắc mắc gì không?</h2>
+                        <!-- JS input -->
                         <div>
-                            <div>
-                                <div class="input-group">
-                                    <input required stype="text" placeholder="Tên của bạn?">
+                            <form class="contact-form" method="post">
+
+                                <div class="row">
+                                    <div class="col-sm-12 col-xs-12 ">
+                                        <div class="input-group">
+                                            <input placeholder="Tên của bạn">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
                                 <div>
-                                    <input placeholder="Email của bạn?">
+                                    <div class="col-sm-6 col-xs-12 ">
+                                        <div class="input-group">
+                                            <input placeholder="Email của bạn">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
                                 <div>
-                                    <input placeholder="Số điện thoại của bạn?">
+                                    <div class="col-sm-6 col-xs-12">
+                                        <div class="input-group">
+                                            <input placeholder="Số điện thoại của bạn">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
                                 <div>
-                                    <input placeholder="Nội dung">
+                                    <div class="col-sm-12 col-xs-12">
+                                        <div class="input-group">
+                                            <textarea placeholder="Nội dung"></textarea>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                                <div>
+                                    <div class="col-xs-12">
+                                        <button> Gửi cho chúng tôi </button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
+                        <!-- JS-input-end -->
                     </div>
+                    <!-- send box-end -->
                 </div>
+                <!-- thong tin lien he - end -->
             </div>
         </div>
 
