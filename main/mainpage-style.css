@@ -583,6 +583,7 @@ span.pass {
   background-color: white;
   color: crimson;
   border: 1px solid crimson;
+  cursor: pointer;
 }
 .foot-register {
   margin-top: 28px;
