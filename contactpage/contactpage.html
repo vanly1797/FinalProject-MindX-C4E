@@ -2,66 +2,32 @@
 <html>
 
 <head>
-    <title>contactpage</title>
-    <link rel="stylesheet" href="contactpage.css">
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Icon-title -->
+    <link rel="shortcut icon"
+        href="https://file.hstatic.net/200000171739/file/logo_favicon_6fbc95f2dda74936998a04439e1d48be.png"
+        type="image/png">
+    <title>Hoành Nguyễn Mobile</title>
 
-    <!-- bootstrap -->
-
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <!-- Bootstrap-CSS-Font ref -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=vietnamese" rel="stylesheet">
-        <link rel="stylesheet" href="/main/mainpage-style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="/mainpage-style.css">
+   
+    <!-- my css -->
+    <link rel="stylesheet" href="/contactpage/contactpage.css">
+
 
     <style>
 
-        @media(min-width:992px) and (max-width:1199px) {
-
-            /*index */
-            .box-banner-inf {
-                width: 80%;
-                z-index: 4;
-            }
-
-            .list-slider-banner.owl-carousel .owl-nav .owl-next {
-                right: 65px;
-            }
-
-            .list-slider-banner.owl-carousel .owl-nav .owl-prev {
-                left: 65px;
-            }
-
-
-        }
-
-        @media(min-width:992px) {
-            .wrapbox-heading-account {
-                position: -webkit-sticky;
-                position: sticky;
-                top: 0;
-                border-right: 1px solid #ededed;
-                height: 100vh;
-                padding: 0;
-            }
-
-            .wrapbox-heading-account .header-page {
-                padding-bottom: 70px;
-            }
-
-            .box-heading-contact {
-                position: -webkit-sticky;
-                position: sticky;
-                top: 0;
-                border-right: 1px solid #ededed;
-                height: 100vh;
-                padding: 0;
-            }
-
-            .box-map {
-                height: 100vh !important
-            }
-        }
+        
     </style>
 </head>
 
@@ -156,7 +122,7 @@
             <ul>
                 <li>
                     <a href="#">
-                        Điện thoại
+                        Sản phẩm
                     </a>
                     <div class="line-menu"></div>
                 </li>
@@ -207,7 +173,7 @@
             </div>
             <div class="col-md-8 header-logo">
                 <div>
-                    <a href="index.html">
+                    <a href="/index.html">
                         <img src="/image/1234-removebg-preview_1a8babcbc6824ad797f14ba780ba3a59.png"
                             class="img-fluid rounded" alt="Hoanh Nguyen Mobile Logo" width="50%" height="40%">
                     </a>
@@ -237,14 +203,14 @@
                     <div class="nav-name home1">
                         <!-- <a class="nav-link" href="#">Điện thoại</a> -->
                         <a class="nav-link" href="#" id="navbarDropdown">
-                            Điện thoại
+                            Sản phẩm
                             <i class="fa fa-chevron-down" aria-hidden="true"></i>
                         </a>
                         <div class="line1"></div>
                         <div class="dropdown-content">
-                            <a class="dropdown-item" href="#">Apple</a>
+                            <a class="dropdown-item" href="./product-apple.html">Apple</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Samsung</a>
+                            <a class="dropdown-item" href="./samsung-page.html">Samsung</a>
                         </div>
                     </div>
                 </li>
@@ -278,21 +244,21 @@
                 </li>
                 <li class="nav-item">
                     <div class="nav-name home5">
-                        <a class="nav-link" href="/new-page.html">Tin tức</a>
+                        <a class="nav-link" href="./new-page.html">Tin tức</a>
                         <div class="line5"></div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="nav-name home6">
-                        <a class="nav-link" href="/contactpage/contactpage.html">Liên hệ</a>
+                        <a class="nav-link" href="./contactpage/contactpage.html">Liên hệ</a>
                         <div class="line6"></div>
                     </div>
                 </li>
             </ul>
         </div>
     </header>
+    <button onclick="topFunction()" id="myBackToTop" title="Go to top">Top</button>
     <!-- /* Header-END */ -->
-
 
     <!-- main-start -->
     <main class="mainContent-theme">
@@ -381,7 +347,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="col-xs-12">
+                                    <div class="col-xs-12 ">
                                         <button> Gửi cho chúng tôi </button>
                                     </div>
                                 </div>
@@ -392,6 +358,14 @@
                     <!-- send box-end -->
                 </div>
                 <!-- thong tin lien he - end -->
+            </div>
+        </div>
+        <!-- icon -->
+        <div class="grid2-2">
+            <div id="link">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-youtube"></a>
             </div>
         </div>
 
@@ -441,8 +415,8 @@
                         <span>
                             Chuyên kinh doanh các sản phẩm Apple mới, cũ, quốc tế xách tay uy tín, chất lượng.
                         </span>
-                        <a href="index.html">
-                            <img src="https://theme.hstatic.net/1000309753/1000718324/14/logo_bct.png?v=209" alt="">
+                        <a href="/index.html">
+                            <img src="/image/logo_bct_019590229b4c4dfda690236b67f7aff4.png" alt="">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-2 linked">
@@ -455,22 +429,22 @@
                             </a>
                         </span>
                         <span>
-                            <a href="#">
+                            <a href="./introduce.html">
                                 Giới thiệu
                             </a>
                         </span>
                         <span>
-                            <a href="#">
+                            <a href="./chinhsachdt.html">
                                 Chính sách đổi trả
                             </a>
                         </span>
                         <span>
-                            <a href="#">
+                            <a href="./chinhsachbm.html">
                                 Chính sách bảo mật
                             </a>
                         </span>
                         <span>
-                            <a href="#">
+                            <a href="./dieukhoan.html">
                                 Điều khoản dịch vụ
                             </a>
                         </span>
@@ -520,6 +494,23 @@
         <!-- </div> -->
     </footer>
     <!-- /* Footer-END */ -->
+
+    <!-- Bootstrap - Javascript - ref -->
+    <script src="/mainpage-script.js"></script>
+    <script src="/button-top.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+ 
+    <!-- my JS -->
+    <script src="/contactpage/contactpae.js"></script>
 </body>
 
 </html>
