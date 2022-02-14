@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Icon-title -->
+    <link rel="shortcut icon"
+        href="https://file.hstatic.net/200000171739/file/logo_favicon_6fbc95f2dda74936998a04439e1d48be.png"
+        type="image/png">
+    <title>Những sản phẩm đáng chờ đợi của Apple trong năm 2022 - Hoành Nguyễn Mobile</title>
+
+    <!-- Bootstrap-CSS-Font ref -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="./mainpage-style.css">
+    <link rel="stylesheet" href="./sang-samsung-news-2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <!-- Header-START -->
+    <header>
+
+        <!-- Plugin Search-->
+        <div id="pluginSearch" class="plugin">
+            <div class="plugin-content">
+                <div class="plugin-header">
+                    <div class="blank-search"></div>
+                    <h2>TÌM KIẾM</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="plugin-body">
+                    <div class="search">
+                        <input class="col-sm-9 input" type="text" placeholder="Tìm kiếm sản phẩm ...">
+                        <i class='fa fa-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Plugin Login-->
+        <div id="pluginLogin" class="plugin">
+            <div class="plugin-content">
+                <div class="plugin-header">
+                    <div id="total">
+                        <div class="user-title">
+                            <h3>ĐĂNG NHẬP TÀI KHOẢN</h3>
+                            <span class="close1">&times;</span>
+                        </div>
+                        <form class="content">
+                            <div class="container">
+                                <input id="username" value="" type="text" placeholder="Email" name="uname" required>
+                                <p id="warning1">* Bạn cần nhập đúng email</p>
+                                <input id="pass" type="password" value="" placeholder="Mật khẩu" name="pass" required>
+                                <p id="warning2">* Bạn cần nhập đúng password</p>
+                                <h6>
+                                    Khi bạn nhấn vào nút đăng nhập là đồng ý vô điều kiện với <span class="policy"><a
+                                            href="https://policies.google.com/terms">Điều khoản Dịch vụ</a></span> và
+                                    <span class="policy"><a href="https://policies.google.com/privacy">Bảo
+                                            mật</a></span> của chúng tôi.
+                                </h6>
+                                <button type="submit" id="myForm">ĐĂNG NHẬP</button>
+                            </div>
+                        </form>
+                        <h6 class="link-register">
+                            Khách hàng mới? <span class="policy"><a href="https://policies.google.com/privacy">Tạo tài
+                                    khoản</a></span>
+                        </h6>
+                        <h6 class="link-register">
+                            Quên mật khẩu? <span class="policy"><a href="https://policies.google.com/privacy">Khôi phục
+                                    mật khẩu</a></span>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Plugin Shopping Cart-->
+        <div id="pluginCart" class="plugin">
+            <div class="plugin-content">
+                <div class="cart-head">
+                    <span class="close2">&times;</span>
+                    <h3>Giỏ hàng</h3>
+                </div>
+                <div class="plugin-header-cart">
+                    <div class="icon-cart">
+                        <i class="fa fa-cart-plus"></i>
+                    </div>
+                    <div class="word-cart">
+                        <h4>Hiện chưa có sản phẩm</h4>
+                    </div>
+                </div>
+                <div class="plugin-body">
+                    <div class="count-cart">
+                        <div class="count-money">
+                            <span>TỔNG TIỀN:</span>
+                            <span class="money-red">0₫</span>
+                        </div>
+                        <div class="btn-cart">
+                            <button class="money-cart1">XEM GIỎ HÀNG</button>
+                            <button class="money-cart2">THANH TOÁN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navlist">
+            <ul>
+                <li>
+                    <a href="#">
+                        Sản phẩm
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+                <li>
+                    <a href="#">
+                        Apple Watch
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+                <li>
+                    <a href="#">
+                        Macbook
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+                <li>
+                    <a href="#">
+                        Phụ kiện
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+                <li>
+                    <a href="#">
+                        Tin tức
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+                <li>
+                    <a href="#">
+                        Liên hệ
+                    </a>
+                    <div class="line-menu"></div>
+                </li>
+            </ul>
+        </div>
+        <!-- End Modal-->
+        <div class="header-top">
+            <div class="container-fluid">
+                <div class="header-top-content">
+                    <p>Hoành Nguyễn Mobile cung cấp sản phẩm chính hãng</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-middle container-fluid">
+            <div class="col-md-2 fa-bars-icon" id="bars">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="col-md-8 header-logo">
+                <div>
+                    <a href="./index.html">
+                        <img src="./image/1234-removebg-preview_1a8babcbc6824ad797f14ba780ba3a59.png"
+                            class="img-fluid rounded" alt="Hoanh Nguyen Mobile Logo" width="50%" height="40%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 icon">
+                <i class='fa fa-search fa-search1' id="btnSearch"></i>
+
+                <i class='fa fa-user-circle' id="btnLogin"></i>
+
+                <i class="fa fa-shopping-bag" id="btnCart"></i>
+            </div>
+        </div>
+
+        <div class="search-input container-fluid">
+            <div class="col-md-4">
+                <div class="search-input-btn">
+                    <input class="col-sm-9 " type="text" placeholder="Tìm kiếm sản phẩm">
+                    <i class='fa fa-search'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <ul class="nav justify-content-center container-fluid">
+                <li class="nav-item dropdown">
+                    <div class="nav-name home1">
+                        <!-- <a class="nav-link" href="#">Điện thoại</a> -->
+                        <a class="nav-link" href="#" id="navbarDropdown">
+                            Sản phẩm
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </a>
+                        <div class="line1"></div>
+                        <div class="dropdown-content">
+                            <a class="dropdown-item" href="./product-apple.html">Apple</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./sang-samsung-page.html">Samsung</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="nav-name home2">
+                        <a class="nav-link" href="#" id="navbarDropdown">
+                            Apple Watch
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </a>
+                        <div class="line2"></div>
+                        <div class="dropdown-content">
+                            <a class="dropdown-item" href="#">Apple Watch Series 7</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Apple Watch Series 6</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Apple Watch SE</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-name home3">
+                        <a class="nav-link" href="#">Macbook</a>
+                        <div class="line3"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-name home4">
+                        <a class="nav-link" href="#">Phụ kiện</a>
+                        <div class="line4"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-name home5">
+                        <a class="nav-link" href="./sang-samsung-news.html">Tin tức</a>
+                        <div class="line5"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-name home6">
+                        <a class="nav-link" href="./contactpage/contactpage.html">Liên hệ</a>
+                        <div class="line6"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <button onclick="topFunction()" id="myBackToTop" title="Go to top">Top</button>
+    <!-- /* Header-END */ -->
+
+    <!-- /* Body-START */ -->
+    <div>
+        <div class="mo-dau">
+            <img class="hinh-mo-dau" src="./image/NBCTemp.jpeg">
+        </div>
+        <div class="boc">
+            <div class="khung-cau-dan">
+                <div class="cau-dan">Những sản phẩm đáng chờ đợi của Apple trong năm 2022</div>
+                <div class="duong-vien"> </div>
+            </div>
+        </div>
+        <div class="boc-2">
+            <div class="noi-dung">
+                <div class="noi-dung-doan-1">
+                    <div class="khung-hinh-doan-1"> <img class="hinh-doan-1"
+                            src="./image/iPhone_14_pill_hole_punch_1.jpg"></div>
+                    <div class="chu-doan-1">
+                        <h1>Iphone 14</h1>
+                        Apple đã thu nhỏ cụm cảm biến tai thỏ trên iPhone 13 Pro, nhưng có vẻ như người dùng đã không
+                        còn hứng thú với kiểu thiết kế này, bởi thiết kế 5 năm tuổi này đã lỗi thời. <br><br>
+                        Theo các tin đồn, iPhone 14 Pro sẽ có thiết kế đục lỗ hoặc hình viên thuốc. Ngoài ra, dòng
+                        iPhone mới sẽ có camera tốt hơn, chip Apple M1 và 8GB Ram. Dự kiến iPhone 14 sẽ không có phiên
+                        bản mini mà thay vào đó là dòng Plus.
+                    </div>
+                </div>
+                <div class="noi-dung-doan-2">
+                    <h1> Kính thực tế ảo</h1>
+                    <div class="dropcap">
+                        Một số tin đồn cho rằng Apple sẽ ra mắt kính thực tế ảo trong năm 2022. Theo trang tin DSCC, gã
+                        khổng lồ di động sẽ tiết lộ về tính năng “ba màn hình” trên kính thực tế ảo mới này, với hai màn
+                        hình Micro OLED 4K và một tấm nền AMOLED. Không chỉ vậy, sản phẩm có thể sẽ bao gồm cả CPU và
+                        GPU.
+                        <br><br>
+                        Ông Ming-Chi Kuo tin rằng Apple muốn kính thực tế ảo mới của mình không chỉ là một thiết bị chơi
+                        game mà còn có thể phục vụ các mục đích khác. Theo ông Kuo, sản phẩm này dự kiến ​​sẽ có giá khá
+                        cao, khởi điểm từ 2.000 USD.
+                    </div>
+                </div>
+                <div class="hinh-minh-hoa">
+                    <img class="hinh-minh-hoa-ne" src="./image/vr_ar_headset.jpg">
+                </div>
+                <div class="noi-dung-doan-3">
+                    <h1>iPad Pro M2</h1>
+                    Cuối cùng là các tin đồn về mẫu iPad Pro mới. Theo một báo cáo độc quyền của 9to5Mac, iPad Pro mới
+                    sẽ có pin lớn hơn và hệ thống camera tương tự như iPhone 13 cũng như một con chip hoàn toàn mới, rất
+                    có thể là Apple M2..<br><br>
+
+                    Đối với iPad Pro thế hệ tiếp theo, phiên bản 11 inch có thể sẽ có màn hình miniLED. Theo hãng tin
+                    Bloomberg, Apple đang thử nghiệm một mẫu iPad mới có màn hình lớn hơn 12,9 inch.<br><br>
+                    Universal Control hiện đã có sẵn trên phiên bản thử nghiệm của iPadOS 15.4. Có thể Apple sẽ ra mắt
+                    iPadOS 16 để đi kèm với mẫu máy tính bảng mạnh mẽ này, nâng khả năng đa nhiệm của iPad lên cao hơn
+                    nữa để phục vụ người dùng.<br><br>
+                    <img class="hinh-minh-hoa-ne" src="./image/iPad_Pro_2021_Review_Storage_and_Memory_1.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="grid2-2">
+            <div id="link">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+    <!-- /* Body-END */ -->
+
+    <!-- /* Footer-START */ -->
+    <footer>
+        <!-- <div class="footer"> -->
+        <div class="container-fluid footer-total">
+            <div class="foot-up">
+                <div class="row">
+                    <div class="col-md-12 col-lg-3 foot-icon-email">
+                        <i class="fa fa-bell-o"></i>
+                        <span>
+                            Đăng ký nhận tin
+                        </span>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="container">
+                            <div class="row">
+                                <input class="col-md-6 col-lg-9 input-email" type="text"
+                                    placeholder="   Nhập email của bạn">
+                                <div class="col-md-2 col-lg-3 foot-input-email">
+                                    ĐĂNG KÝ
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 col-lg-3 foot-register">
+                        <i class="fa fa-volume-control-phone"></i>
+                        <span> Hỗ trợ / Mua hàng: </span>
+                        <a href="tel:+1900636099" style="color: red;">0946.2222.39</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="foot-middle">
+                <div class="row ">
+                    <div class="col-md-6 col-lg-4 introduction">
+                        <h3>Giới thiệu</h3>
+                        <span>
+                            Hoành Nguyễn Mobile luôn đặt đạo đức kinh doanh làm tiền đề ĐỂ PHÁT TRIỂN.
+                        </span>
+                        <br />
+                        <span>
+                            Chuyên kinh doanh các sản phẩm Apple mới, cũ, quốc tế xách tay uy tín, chất lượng.
+                        </span>
+                        <a href="./index.html">
+                            <img src="./image/logo_bct_019590229b4c4dfda690236b67f7aff4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-2 linked">
+                        <h3>
+                            Liên kết
+                        </h3>
+                        <span>
+                            <a href="#">
+                                Tìm kiếm
+                            </a>
+                        </span>
+                        <span>
+                            <a href="./introduce.html">
+                                Giới thiệu
+                            </a>
+                        </span>
+                        <span>
+                            <a href="./chinhsachdt.html">
+                                Chính sách đổi trả
+                            </a>
+                        </span>
+                        <span>
+                            <a href="./chinhsachbm.html">
+                                Chính sách bảo mật
+                            </a>
+                        </span>
+                        <span>
+                            <a href="./dieukhoan.html">
+                                Điều khoản dịch vụ
+                            </a>
+                        </span>
+                    </div>
+                    <div class="col-md-6 col-lg-3 information">
+                        <h3>Thông tin liên hệ</h3>
+                        <div class="address">
+                            <i class="fa fa-map-marker"></i>
+                            <span>275 Ba Tháng Hai, Phường 10, Quận 10, Tp. Hồ Chí Minh</span>
+                        </div>
+                        <div class="phone">
+                            <i class="fa fa-phone"></i>
+                            <span>0946.2222.39</span>
+                        </div>
+                        <div class="fax">
+                            <i class="fa fa-fax"></i>
+                            <span>0946.2222.39</span>
+                        </div>
+                        <div class="email">
+                            <i class="fa fa-send"></i>
+                            <span>nguyenvanhoanh11@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2 fanpage">
+                        <h3>
+                            Fanpage
+                        </h3>
+                        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline"
+                            data-width="300" data-height="120" data-small-header="false"
+                            data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false">
+                            <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/facebook">Meta</a></blockquote>
+                        </div>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous"
+                            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0"
+                            nonce="xipeAohS"></script>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="foot-down">
+                <p>Copyright © 2022 Hoành Nguyễn Mobile</p>
+            </div>
+        </div>
+        <!-- </div> -->
+    </footer>
+    <!-- /* Footer-END */ -->
+
+    <!-- Bootstrap - Javascript - ref -->
+    <script src="./mainpage-script.js"></script>
+    <script src="./sang-social-button.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
