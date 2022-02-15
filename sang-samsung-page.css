@@ -1,9 +1,25 @@
-.sbanner {
+.scontainer {
   display: block;
-
   width: 100%;
-  height: 500px;
 }
+
+.tales {
+  width: 100%;
+}
+.carousel-inner {
+  width: 100%;
+  display: block;
+  max-height: 90% !important;
+}
+
+.carousel-indicators li {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #f5fffa;
+  margin-bottom: -10px;
+}
+
 .sheadline {
   display: flex;
   height: 100px;
@@ -63,6 +79,9 @@
   background-color: white;
 }
 .sname {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
   text-align: center;
 }
 .ssamsung {
@@ -94,28 +113,19 @@
 }
 .sprice {
   border: 2px solid black;
+  display: flex;
   position: absolute;
   left: 12px;
   bottom: 10px;
   color: black;
   font-weight: bold;
-  width: 100px;
-  height: 20px;
-  padding-bottom: 20px;
-  text-align: center;
+  width: 110px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
 }
-.scontainer {
-  width: 100%;
-}
-.carousel-inner {
-  width: 100%;
-  padding: -10px;
-  transition: all 0.1s ease;
-}
-.carousel-indicators {
-  margin-bottom: -10px;
-}
+
 .linktodetail {
   text-decoration: none;
   color: black;
@@ -123,6 +133,7 @@
 .linktodetail:hover {
   text-decoration: none;
 }
+
 .fa-facebook:hover {
   transform: scale(1.2);
   text-decoration: none;

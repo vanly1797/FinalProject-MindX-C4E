@@ -268,3 +268,7 @@ td {
   right: 30px;
   bottom: 80px;
 }
+.tieu-de {
+  text-align: justify;
+  font-weight: bold;
+}
