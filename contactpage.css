@@ -1,22 +1,26 @@
-
 body {
-  line-height:1.4;
-	font-size: 14px;
-	color:#252a2b;
-	overflow-x: hidden;
-	background : #fff;
-	position: initial !important;
+  line-height: 1.4;
+  font-size: 14px;
+  color: #252a2b;
+  overflow-x: hidden;
+  background: #fff;
+  position: initial !important;
 }
-h1,h2,h3,h4,h5,h6 { 
-  color:#252a2b; 
-  margin:0 0 13px 0;  
-  font-weight:500;
-  line-height:1.2
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #252a2b;
+  margin: 0 0 13px 0;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 ul {
-  padding:0;
-  list-style:none;
+  padding: 0;
+  list-style: none;
 }
 
 p {
@@ -25,7 +29,7 @@ p {
 }
 
 .box-heading-contact {
-  padding:0;
+  padding: 0;
 }
 
 .mainContent-theme {
@@ -39,23 +43,23 @@ p {
 }
 
 .wrapbox-content-page-contact {
-  padding:50px;   
+  padding: 50px;
 }
 
 .header-page-contact h1 {
-  font-size:30px; 
-  font-weight:700;
-  margin:0px 0
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px 0;
 }
 
 .header-page-contact:after {
-	content: "";
-	display: block;
-	width: 50px;
-	height: 4px;
-	margin-top: 30px;
-	background:#252a2b;
-	margin-bottom: 50px;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  margin-top: 30px;
+  background: #252a2b;
+  margin-bottom: 50px;
 }
 
 .box-info-contact li {
@@ -64,18 +68,19 @@ p {
 
 .box-info-contact li p {
   margin-bottom: 0;
-  color:#666;
+  color: #666;
   font-weight: 500;
 }
 .box-info-contact li p strong {
-  font-weight:600;
-  color:#252a2b;
+  font-weight: 600;
+  color: #252a2b;
 }
 
 .box-send-contact h2 {
-  font-weight:700;
+  font-weight: 700;
   font-size: 25px;
-  margin:40px 0 35px;}
+  margin: 40px 0 35px;
+}
 
 .box-send-contact h2:after {
   content: "";
@@ -83,7 +88,7 @@ p {
   margin-top: 25px;
   width: 30px;
   height: 3px;
-  background:#252a2b;
+  background: #252a2b;
 }
 .contact-form .input-group {
   width: 100%;
@@ -91,34 +96,33 @@ p {
 }
 .contact-form .input-group input,
 .contact-form .input-group textarea {
-	border: 1px solid #e7e7e7;
-	box-shadow: none;
-	height: 45px;
-	font-weight: 500;
-	padding: 0 20px;
-	background: #fbfbfb;
-	color:#252a2b;
-	width:100%!important;
-	-webkit-appearance: none;
+  border: 1px solid #e7e7e7;
+  box-shadow: none;
+  height: 45px;
+  font-weight: 500;
+  padding: 0 20px;
+  background: #fbfbfb;
+  color: #252a2b;
+  width: 100% !important;
+  -webkit-appearance: none;
   -moz-appearance: none;
-  -o-appearance: none; 
+  -o-appearance: none;
   appearance: none;
 }
 
 .contact-form .input-group textarea {
   width: 100%;
-  height:130px;
-  padding:20px 20px;
+  height: 130px;
+  padding: 20px 20px;
 }
 
-
 .box-send-contact button {
-	height: 55px;
-	line-height: 55px;
-	padding: 0 30px;
-	border-radius: 0;
-	font-weight: 600;
-	text-transform: uppercase;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 30px;
+  border-radius: 0;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 /* icon */
@@ -143,19 +147,19 @@ p {
 }
 .fa-facebook {
   padding: 20px;
-font-size: 30px;
-width: 55px;
-height: 55px;
-border-radius: 50%;
-background: #3B5998;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-position: fixed;
-right: 30px;
-bottom: 215px;
-bottom: 215px;
+  font-size: 30px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 30px;
+  bottom: 215px;
+  bottom: 215px;
 }
 
 .fa-google {
@@ -164,29 +168,33 @@ bottom: 215px;
   width: 55px;
   height: 55px;
   border-radius: 50%;
-background: #dd4b39;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-position: fixed;
-right: 30px;
-bottom: 150px;
+  background: #dd4b39;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 30px;
+  bottom: 150px;
 }
 
 .fa-youtube {
   padding: 20px;
-font-size: 30px;
-width: 55px;
-height: 55px;
-margin: 5px 2px;
-border-radius: 50%;
-background: #bb0000;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-position: fixed;
-right: 30px;
-bottom: 80px;
+  font-size: 30px;
+  width: 55px;
+  height: 55px;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: #bb0000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 30px;
+  bottom: 80px;
+}
+
+.box-map {
+  padding-left: 100px;
 }
