@@ -209,4 +209,14 @@
 }
 .link-to-news:hover {
   text-decoration: none;
+  color: black;
+}
+.sheadline1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
+.sheadline2 {
+  font-size: 18px;
+  padding: 10px;
 }

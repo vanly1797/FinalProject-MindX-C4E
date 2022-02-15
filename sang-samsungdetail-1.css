@@ -4,7 +4,6 @@
 .boc {
   width: 100%;
   display: flex;
-
   justify-content: center;
 }
 .grid1 {
@@ -53,7 +52,7 @@
   position: absolute;
   top: 0;
   left: 100%;
-  z-index: 10;
+  z-index: 100;
   padding: 8em 1em 0;
   background-size: cover;
   transition: left 0s 0.75s;
@@ -267,4 +266,8 @@ td {
   position: fixed;
   right: 30px;
   bottom: 80px;
+}
+.tieu-de {
+  text-align: justify;
+  font-weight: bold;
 }
